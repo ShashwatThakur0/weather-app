@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="search-box">
+				<i class="fa-solid fa-location-dot"></i>
+				<input type="text" placeholder="Enter your location" />
+				<button class="fa-solid fa-magnifying-glass"></button>
+			</div>
+
+			<div class="weather-box">
+				<div class="weather-details">
+					<div class="weather-status">
+						<i class="fa-solid fa-cloud-sun"></i>
+						<span>Weather App</span>
+					</div>
+					<div class="temperature">
+						<span class="num">--</span>
+						<span class="deg">°C</span>
+					</div>
+					<div class="description">
+						<div class="condition">--</div>
+						<div class="location">
+							<i class="fa-solid fa-location-dot"></i> <span>----</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="weather-details-container">
+				<div class="details-row">
+					<div class="details-box">
+						<i class="fa-solid fa-temperature-low"></i>
+						<div class="text">
+							<span>Feels Like</span>
+							<span class="feels-like">--°C</span>
+						</div>
+					</div>
+					<div class="details-box">
+						<i class="fa-solid fa-droplet"></i>
+						<div class="text">
+							<span>Humidity</span>
+							<span class="humidity">--%</span>
+						</div>
+					</div>
+				</div>
+				<div class="details-row">
+					<div class="details-box">
+						<i class="fa-solid fa-wind"></i>
+						<div class="text">
+							<span>Wind Speed</span>
+							<span class="wind-speed">-- km/h</span>
+						</div>
+					</div>
+					<div class="details-box">
+						<i class="fa-solid fa-gauge-high"></i>
+						<div class="text">
+							<span>Pressure</span>
+							<span class="pressure">-- hPa</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="forecast-container">
+				<h3>5-Day Forecast</h3>
+				<div class="forecast-cards">
+					<!-- Forecast cards will be added dynamically via JavaScript -->
+				</div>
+			</div>
+
+			<div class="not-found">
+				<div class="content">
+					<i class="fa-solid fa-triangle-exclamation"></i>
+					<div class="text">
+						<h2>Oops! Location not found.</h2>
+						<p>Please enter a valid location.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="api-instructions">
+				<h3>How to Get Your API Key</h3>
+				<ol>
+					<li>
+						Sign up for a free account at
+						<a href="https://openweathermap.org/" target="_blank"
+							>OpenWeatherMap</a
+						>
+					</li>
+					<li>Go to your API keys section</li>
+					<li>Copy your API key</li>
+					<li>
+						Open script.js and replace "YOUR_API_KEY_HERE" with your actual API
+						key
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
