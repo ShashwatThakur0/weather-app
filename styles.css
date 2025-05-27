@@ -12,6 +12,149 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	overflow-x: hidden;
+	transition: background 1.5s ease;
+}
+
+/* Weather Animation Styles */
+.weather-animation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: -1;
+	overflow: hidden;
+}
+
+/* Rain Animation */
+.rain-drop {
+	position: absolute;
+	top: -20px;
+	width: 2px;
+	height: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 0 0 5px 5px;
+	animation: rain-fall 1s linear infinite;
+}
+
+@keyframes rain-fall {
+	to {
+		top: 100%;
+	}
+}
+
+/* Snow Animation */
+.snowflake {
+	position: absolute;
+	top: -20px;
+	color: white;
+	animation: snow-fall 10s linear infinite;
+}
+
+@keyframes snow-fall {
+	to {
+		top: 100%;
+		transform: translateX(20px) rotate(360deg);
+	}
+}
+
+/* Cloud Animation */
+.cloud {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 50px;
+	animation: cloud-move 120s linear infinite;
+}
+
+.cloud:before,
+.cloud:after {
+	content: "";
+	position: absolute;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 50%;
+}
+
+.cloud:before {
+	width: 100px;
+	height: 100px;
+	top: -50px;
+	left: 25px;
+}
+
+.cloud:after {
+	width: 80px;
+	height: 80px;
+	top: -35px;
+	left: 110px;
+}
+
+@keyframes cloud-move {
+	0% {
+		left: -200px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+/* Lightning Animation */
+.lightning {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0);
+	opacity: 0;
+	transition: opacity 0.1s ease;
+}
+
+/* Mist Animation */
+.mist {
+	position: absolute;
+	width: 200%;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	left: -50%;
+	animation: mist-move 20s linear infinite alternate;
+}
+
+@keyframes mist-move {
+	0% {
+		left: -50%;
+	}
+	100% {
+		left: 0%;
+	}
+}
+
+/* Wind Animation */
+.wind {
+	position: absolute;
+	height: 2px;
+	background: rgba(255, 255, 255, 0.3);
+	animation: wind-move 3s linear infinite;
+}
+
+@keyframes wind-move {
+	0% {
+		left: -100px;
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		left: 100%;
+		opacity: 0;
+	}
 }
 
 .container {
@@ -81,6 +224,8 @@ body {
 .weather-box {
 	margin-top: 30px;
 	text-align: center;
+	padding: 10px;
+	overflow: hidden;
 }
 
 .weather-box .weather-status {
@@ -113,13 +258,19 @@ body {
 	font-size: 4rem;
 	font-weight: 800;
 	margin-top: 10px;
-	margin-left: -16px;
+	display: inline-flex;
+	align-items: flex-start;
 }
 
-.weather-box .temperature span {
-	position: absolute;
-	margin-left: 4px;
+.weather-box .temperature .num {
+	display: inline-block;
+}
+
+.weather-box .temperature .deg {
+	position: relative;
 	font-size: 1.5rem;
+	top: 0.5rem;
+	margin-left: 0.25rem;
 }
 
 .weather-box .description {
@@ -127,11 +278,14 @@ body {
 	font-size: 22px;
 	font-weight: 500;
 	text-transform: capitalize;
-	margin-top: 10px;
+	margin-top: 20px;
+	clear: both;
 }
 
 .weather-box .description .condition {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	overflow-wrap: break-word;
 }
 
 .weather-box .description .location {
@@ -139,11 +293,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-size: 18px;
+	padding: 0 10px;
 }
 
 .weather-box .description .location i {
 	margin-right: 5px;
 	font-size: 16px;
+	flex-shrink: 0;
 }
 
 .weather-details-container {
