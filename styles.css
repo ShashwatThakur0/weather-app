@@ -6,7 +6,7 @@
 }
 
 body {
-	background: linear-gradient(135deg, #67b26f, #4ca2cd);
+	background: linear-gradient(135deg, #3a7bd5, #00d2ff);
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -14,6 +14,20 @@ body {
 	padding: 20px;
 	overflow-x: hidden;
 	transition: background 1.5s ease;
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* Weather Animation Styles */
@@ -161,105 +175,157 @@ body {
 	position: relative;
 	width: 100%;
 	max-width: 450px;
-	background: rgba(255, 255, 255, 0.1);
-	backdrop-filter: blur(10px);
-	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	border-radius: 24px;
 	padding: 30px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15), 0 5px 15px rgba(0, 0, 0, 0.05);
 	overflow: hidden;
-	transition: height 0.6s ease;
+	transition: all 0.6s ease;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	transform: translateY(0);
+}
+
+.container:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .search-box {
 	width: 100%;
-	height: 55px;
+	height: 60px;
 	display: flex;
 	align-items: center;
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .search-box i {
 	position: absolute;
-	left: 15px;
-	color: #06283d;
+	left: 18px;
+	color: #3a7bd5;
 	font-size: 20px;
+	z-index: 2;
+	transition: all 0.3s ease;
 }
 
 .search-box input {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #fff;
-	border: none;
+	background: rgba(255, 255, 255, 0.9);
+	border: 2px solid rgba(255, 255, 255, 0.5);
 	outline: none;
 	border-radius: 30px;
-	padding: 0 60px 0 45px;
+	padding: 0 65px 0 50px;
 	font-size: 18px;
-	color: #06283d;
+	color: #1e3a5f;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+	background: #ffffff;
+	border-color: #3a7bd5;
+	box-shadow: 0 5px 20px rgba(58, 123, 213, 0.2);
+}
+
+.search-box input:focus + i {
+	color: #3a7bd5;
 }
 
 .search-box input::placeholder {
-	color: #06283d;
-	opacity: 0.6;
+	color: #6e85a9;
+	opacity: 0.7;
 }
 
 .search-box button {
 	position: absolute;
-	right: 0;
-	height: 55px;
-	width: 55px;
-	background: #06283d;
+	right: 5px;
+	height: 50px;
+	width: 50px;
+	background: linear-gradient(135deg, #3a7bd5, #00d2ff);
 	border: none;
 	border-radius: 50%;
 	font-size: 20px;
 	color: #fff;
 	cursor: pointer;
-	transition: 0.4s ease;
+	transition: all 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	z-index: 2;
 }
 
 .search-box button:hover {
-	background: #0e4166;
+	background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+	transform: scale(1.05);
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .weather-box {
-	margin-top: 30px;
+	margin-top: 35px;
 	text-align: center;
-	padding: 10px;
+	padding: 15px;
 	overflow: hidden;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: all 0.3s ease;
+}
+
+.weather-box:hover {
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .weather-box .weather-status {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .weather-box .weather-status i {
-	font-size: 28px;
-	color: #06283d;
-	margin-right: 10px;
+	font-size: 30px;
+	color: #ffffff;
+	margin-right: 12px;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .weather-box .weather-status span {
-	font-size: 22px;
-	font-weight: 500;
-	color: #06283d;
+	font-size: 24px;
+	font-weight: 600;
+	color: #ffffff;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .weather-box img {
-	width: 60%;
+	width: 65%;
 	margin-top: 20px;
+	filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.2));
+	transition: transform 0.3s ease;
+}
+
+.weather-box img:hover {
+	transform: scale(1.05);
 }
 
 .weather-box .temperature {
 	position: relative;
-	color: #06283d;
-	font-size: 4rem;
-	font-weight: 800;
+	color: #ffffff;
+	font-size: 5rem;
+	font-weight: 700;
 	margin-top: 10px;
 	display: inline-flex;
 	align-items: flex-start;
+	text-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+.weather-box .temperature:hover {
+	transform: scale(1.05);
 }
 
 .weather-box .temperature .num {
@@ -268,24 +334,31 @@ body {
 
 .weather-box .temperature .deg {
 	position: relative;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	top: 0.5rem;
 	margin-left: 0.25rem;
+	opacity: 0.9;
 }
 
 .weather-box .description {
-	color: #06283d;
-	font-size: 22px;
+	color: #ffffff;
+	font-size: 24px;
 	font-weight: 500;
 	text-transform: capitalize;
 	margin-top: 20px;
 	clear: both;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .weather-box .description .condition {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	padding: 0 10px;
 	overflow-wrap: break-word;
+	transition: all 0.3s ease;
+}
+
+.weather-box .description .condition:hover {
+	transform: translateY(-2px);
 }
 
 .weather-box .description .location {
@@ -293,38 +366,67 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-size: 18px;
-	padding: 0 10px;
+	padding: 8px 15px;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 30px;
+	width: fit-content;
+	margin: 0 auto;
+	transition: all 0.3s ease;
+}
+
+.weather-box .description .location:hover {
+	background: rgba(255, 255, 255, 0.25);
+	transform: translateY(-2px);
 }
 
 .weather-box .description .location i {
-	margin-right: 5px;
+	margin-right: 8px;
 	font-size: 16px;
 	flex-shrink: 0;
+	color: #00d2ff;
 }
 
 .weather-details-container {
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
 .details-row {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 15px;
+	margin-bottom: 18px;
+	gap: 15px;
 }
 
 .details-box {
 	width: 48%;
 	display: flex;
 	align-items: center;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 18px;
+	padding: 18px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: all 0.3s ease;
+}
+
+.details-box:hover {
+	transform: translateY(-3px);
 	background: rgba(255, 255, 255, 0.2);
-	border-radius: 15px;
-	padding: 15px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .details-box i {
-	color: #06283d;
-	font-size: 24px;
-	margin-right: 10px;
+	color: #ffffff;
+	font-size: 28px;
+	margin-right: 15px;
+	background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .details-box .text {
@@ -334,75 +436,152 @@ body {
 
 .details-box .text span:first-child {
 	font-size: 14px;
-	color: #06283d;
-	opacity: 0.8;
+	color: #ffffff;
+	opacity: 0.9;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .details-box .text span:last-child {
-	font-size: 18px;
-	font-weight: 500;
-	color: #06283d;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .forecast-container {
-	margin-top: 30px;
+	margin-top: 40px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	padding: 25px 20px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .forecast-container h3 {
-	color: #06283d;
-	margin-bottom: 15px;
-	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.forecast-container h3:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 3px;
+	background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+	border-radius: 10px;
 }
 
 .forecast-cards {
 	display: flex;
 	overflow-x: auto;
 	gap: 15px;
-	padding-bottom: 10px;
+	padding: 5px 5px 15px;
 	scrollbar-width: thin;
+	scroll-behavior: smooth;
 }
 
 .forecast-cards::-webkit-scrollbar {
-	height: 5px;
+	height: 6px;
 }
 
-.forecast-cards::-webkit-scrollbar-thumb {
-	background: rgba(6, 40, 61, 0.3);
+.forecast-cards::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.1);
 	border-radius: 10px;
 }
 
+.forecast-cards::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+
+.forecast-cards::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
 .forecast-card {
-	min-width: 120px;
-	background: rgba(255, 255, 255, 0.2);
-	border-radius: 15px;
-	padding: 15px;
+	min-width: 130px;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 18px;
+	padding: 18px 15px;
 	text-align: center;
 	flex-shrink: 0;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: all 0.3s ease;
+}
+
+.forecast-card:hover {
+	transform: translateY(-5px);
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .forecast-card .day {
 	font-size: 16px;
-	font-weight: 500;
-	color: #06283d;
-	margin-bottom: 10px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 15px;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding-bottom: 8px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .forecast-card i {
-	font-size: 30px;
-	color: #06283d;
-	margin-bottom: 10px;
+	font-size: 36px;
+	color: #ffffff;
+	margin-bottom: 15px;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.forecast-card:hover i {
+	transform: scale(1.1);
 }
 
 .forecast-card .temp {
-	font-size: 18px;
-	font-weight: 500;
-	color: #06283d;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .not-found {
 	display: none;
-	margin-top: 20px;
+	margin-top: 30px;
 	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	padding: 30px 20px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .not-found .content {
@@ -412,31 +591,49 @@ body {
 }
 
 .not-found i {
-	font-size: 60px;
-	color: #06283d;
-	margin-bottom: 20px;
+	font-size: 70px;
+	color: #ffffff;
+	margin-bottom: 25px;
+	text-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 .not-found h2 {
-	font-size: 22px;
-	color: #06283d;
-	margin-bottom: 10px;
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 15px;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	font-weight: 600;
 }
 
 .not-found p {
-	font-size: 16px;
-	color: #06283d;
-	opacity: 0.8;
+	font-size: 18px;
+	color: #ffffff;
+	opacity: 0.9;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive adjustments */
 @media (max-width: 480px) {
 	.container {
 		padding: 20px;
+		max-width: 100%;
 	}
 
 	.weather-box .temperature {
-		font-size: 3rem;
+		font-size: 3.5rem;
 	}
 
 	.details-row {
@@ -445,41 +642,119 @@ body {
 
 	.details-box {
 		width: 100%;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
+	}
+
+	.search-box input {
+		font-size: 16px;
+	}
+
+	.forecast-card {
+		min-width: 110px;
+		padding: 15px 10px;
 	}
 }
 
 .api-instructions {
 	display: none;
-	margin-top: 30px;
-	background: rgba(255, 255, 255, 0.2);
-	border-radius: 15px;
-	padding: 20px;
+	margin-top: 35px;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 20px;
+	padding: 25px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	animation: fadeIn 0.5s ease-in-out;
 }
 
 .api-instructions h3 {
-	color: #06283d;
-	margin-bottom: 15px;
-	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-size: 22px;
 	text-align: center;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.api-instructions h3:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 3px;
+	background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+	border-radius: 10px;
 }
 
 .api-instructions ol {
-	padding-left: 20px;
+	padding-left: 25px;
+	list-style-type: none;
+	counter-reset: item;
 }
 
 .api-instructions li {
-	color: #06283d;
-	margin-bottom: 10px;
-	line-height: 1.4;
+	color: #ffffff;
+	margin-bottom: 15px;
+	line-height: 1.5;
+	position: relative;
+	padding-left: 10px;
+	counter-increment: item;
+}
+
+.api-instructions li:before {
+	content: counter(item) ".";
+	position: absolute;
+	left: -20px;
+	color: #00d2ff;
+	font-weight: 600;
 }
 
 .api-instructions a {
-	color: #0e4166;
-	font-weight: 500;
-	text-decoration: underline;
+	color: #00d2ff;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	padding: 2px 5px;
+	border-radius: 4px;
 }
 
 .api-instructions a:hover {
-	color: #06283d;
+	background: rgba(255, 255, 255, 0.2);
+	text-decoration: underline;
+}
+
+/* Footer Styles */
+.app-footer {
+	margin-top: 35px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 14px;
+}
+
+.app-footer p {
+	margin-bottom: 8px;
+}
+
+.app-footer a {
+	color: #00d2ff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	padding: 2px 5px;
+	border-radius: 4px;
+}
+
+.app-footer a:hover {
+	background: rgba(255, 255, 255, 0.2);
+	text-decoration: underline;
+}
+
+.app-footer .copyright {
+	opacity: 0.7;
+	font-size: 12px;
+	margin-top: 5px;
 }

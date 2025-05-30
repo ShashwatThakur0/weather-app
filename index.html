@@ -3,22 +3,30 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Weather App</title>
+		<title>Weather Forecast App</title>
+		<meta
+			name="description"
+			content="A beautiful weather forecast application with real-time updates and 5-day forecast"
+		/>
 		<link rel="stylesheet" href="styles.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
 			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌤️</text></svg>"
 		/>
 	</head>
 	<body>
 		<div class="container">
 			<div class="search-box">
 				<i class="fa-solid fa-location-dot"></i>
-				<input type="text" placeholder="Enter your location" />
+				<input type="text" placeholder="Search for a city..." />
 				<button class="fa-solid fa-magnifying-glass"></button>
 			</div>
 
@@ -26,7 +34,7 @@
 				<div class="weather-details">
 					<div class="weather-status">
 						<i class="fa-solid fa-cloud-sun"></i>
-						<span>Weather App</span>
+						<span>Weather Forecast</span>
 					</div>
 					<div class="temperature">
 						<span class="num">--</span>
@@ -46,14 +54,14 @@
 					<div class="details-box">
 						<i class="fa-solid fa-temperature-low"></i>
 						<div class="text">
-							<span>Feels Like</span>
+							<span>FEELS LIKE</span>
 							<span class="feels-like">--°C</span>
 						</div>
 					</div>
 					<div class="details-box">
 						<i class="fa-solid fa-droplet"></i>
 						<div class="text">
-							<span>Humidity</span>
+							<span>HUMIDITY</span>
 							<span class="humidity">--%</span>
 						</div>
 					</div>
@@ -62,14 +70,14 @@
 					<div class="details-box">
 						<i class="fa-solid fa-wind"></i>
 						<div class="text">
-							<span>Wind Speed</span>
+							<span>WIND SPEED</span>
 							<span class="wind-speed">-- km/h</span>
 						</div>
 					</div>
 					<div class="details-box">
 						<i class="fa-solid fa-gauge-high"></i>
 						<div class="text">
-							<span>Pressure</span>
+							<span>PRESSURE</span>
 							<span class="pressure">-- hPa</span>
 						</div>
 					</div>
@@ -87,8 +95,8 @@
 				<div class="content">
 					<i class="fa-solid fa-triangle-exclamation"></i>
 					<div class="text">
-						<h2>Oops! Location not found.</h2>
-						<p>Please enter a valid location.</p>
+						<h2>Location Not Found</h2>
+						<p>Please check the city name and try again</p>
 					</div>
 				</div>
 			</div>
@@ -102,18 +110,28 @@
 							>OpenWeatherMap</a
 						>
 					</li>
-					<li>Go to your API keys section</li>
-					<li>Copy your API key</li>
+					<li>Navigate to your API keys section in the dashboard</li>
+					<li>Copy your API key to clipboard</li>
 					<li>
 						Open config.js and replace "YOUR_API_KEY_HERE" with your actual API
 						key
 					</li>
 					<li>
 						<strong>Important:</strong> Never commit your config.js file to a
-						public repository
+						public repository for security reasons
 					</li>
 				</ol>
 			</div>
+
+			<footer class="app-footer">
+				<p>
+					Weather data provided by
+					<a href="https://openweathermap.org/" target="_blank"
+						>OpenWeatherMap</a
+					>
+				</p>
+				<p class="copyright">© 2025 Weather Forecast App</p>
+			</footer>
 		</div>
 
 		<script src="config.js"></script>
