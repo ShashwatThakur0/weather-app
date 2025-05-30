@@ -55,3 +55,2343 @@ A beautiful and functional weather application that provides current weather con
 ## License
 
 MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+3. Login to Vercel from the command line:
+   ```
+   vercel login
+   ```
+4. Prepare your project for deployment:
+   - Rename `config.js.template` to `config.js` for local development
+   - Make sure `config.js` is in your `.gitignore` file
+5. Deploy your project:
+   ```
+   vercel
+   ```
+6. Set up environment variables in the Vercel dashboard:
+   - Go to your project settings
+   - Navigate to the "Environment Variables" tab
+   - Add a new variable named `NEXT_PUBLIC_OPENWEATHER_API_KEY` with your API key
+   - Redeploy your project for the changes to take effect
+
+### API Key Security
+
+This project uses environment variables to securely handle the API key in production. The `config.js.template` file shows how the API key is accessed from environment variables when deployed.
+
+For local development:
+- Create a `config.js` file based on the template
+- Add your API key directly in the file
+- Never commit this file to your repository
+
+For production:
+- The API key is stored as an environment variable in Vercel
+- The application reads the key from the environment
+- This keeps your API key secure and not exposed in your code
+
+## License
+
+MIT
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create an account on [Vercel](https://vercel.com/) if you don't have one
+2. Install the Vercel CLI:
+   ```

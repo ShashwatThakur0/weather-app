@@ -1,0 +1,11 @@
+// This is a template file for config.js
+// For local development: Rename this file to config.js and add your API key
+// For production: The API key will be loaded from environment variables
+
+const config = {
+    // Try to get API key from environment variables first, fallback to placeholder
+    // The typeof check ensures this works in both Node.js and browser environments
+    apiKey: typeof process !== 'undefined' && process.env && process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY 
+        ? process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY 
+        : "YOUR_API_KEY_HERE"
+};
