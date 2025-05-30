@@ -1,0 +1,10 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A beautiful weather application with current conditions and 5-day forecast",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
